@@ -166,7 +166,7 @@ input{
 
 /*Logar*/
 #logar{
-    width:210px;
+    width: 280px;
     padding:20px;
     float:none;
     margin: 10% auto;
@@ -180,11 +180,19 @@ input{
 }
 
 #logar table tr td.text-td{
-    
+    font-family: Trebuchet MS;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 9px 4px;
+    text-align: right;
+    text-transform: uppercase;
+    width: 80px;
 }
 #logar table tr td.input-td{
-    
+    margin: 0 0 0 5px;
+    width: 180px;
 }
+
 /*tabela*/
 .lista_dados{
     margin: 0 0 15px;
