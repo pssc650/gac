@@ -13,6 +13,7 @@ $usuario = $_SESSION['objetoUsuario'];
         <link rel="stylesheet" href="css/chico-min-0.11.css" type="text/css" />
         <link rel="stylesheet" href="css/style.css" type="text/css" />
         <script type='text/javascript' src="js/jquery.js"></script>
+        <script type='text/javascript' src="js/chico-min-0.11.js"></script>
         <script type='text/javascript' src="js/funcoes.js"></script>
     </head>
     <body>
