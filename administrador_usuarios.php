@@ -52,7 +52,7 @@ endif;
         <p>Login: <input type="text" name="login" /></p>
         <p>Senha: <input type="text" name="senha" /></p>
         <input type="hidden" name="status" value="1" />
-        <p><input type="submit" value="Cadastrar" /></p>
+        <p><input type="submit" value="Cadastrar" class="ch-btn ch-btn-tiny" /></p>
     </form>
 </div><!-- end .box-->
 
@@ -111,7 +111,7 @@ endif;
                     </tr>
                 <?php endforeach; ?>
             </table>
-            Ações em Massa: <input type="submit" value="Status" name="acao"/> <input type="submit" value="Deletar" name="acao"/>
+            Ações em Massa: <input type="submit" value="Status" name="acao" class="ch-btn ch-btn-tiny"/> <input type="submit" value="Deletar" name="acao" class="ch-btn ch-btn-tiny"/>
         </form>
     <?php endif;
     ?>
