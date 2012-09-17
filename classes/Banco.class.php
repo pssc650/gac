@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 /*
  * To change this template, choose Tools | Templates
@@ -25,6 +25,12 @@ class Banco {
          * Caso seja localhost ele vai ter outra cfg
          */
         switch ($_SERVER['HTTP_HOST']):
+        case "gabrielmatsuoka.net":
+                $this->servidor = "localhost";
+                $this->banco = "gac";
+                $this->usuario = "root";
+                $this->senha = "gabr1241992iel";
+                break;
 	    case "gabrielmatsuoka.co.cc":
                 $this->servidor = "localhost";
                 $this->banco = "gac";
