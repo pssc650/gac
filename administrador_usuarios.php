@@ -68,19 +68,19 @@ endif;
     else:
         ?>
         <form method="get">
-            <table class="lista_dados">
-                <tr class="cabecalho">
-                    <td></td>
-                    <td>Id Usuario</td>
-                    <td>Login</td>
-                    <td>Senha</td>
-                    <td>Nivel</td>
-                    <td>Status</td>
-                    <td>Alterar Status</td>
-                    <td></td>
-
-                </tr>
-
+            <table class="ch-datagrid">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Id Usuario</th>
+                        <th scope="col">Login</th>
+                        <th scope="col">Senha</th>
+                        <th scope="col">Nivel</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Alterar Status</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
                 <?php
                 foreach ($retorno as $valores):
                     ?>
