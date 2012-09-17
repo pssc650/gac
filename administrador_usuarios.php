@@ -106,7 +106,7 @@ endif;
 
 
                             <?php endif; ?></td>
-                        <td class="deletar"><a href="?acao=deletar&id_usuario[]=<?php echo $valores['id_usuario']; ?>" class="deletar"></a></td>
+                        <td class="deletar-td"><a href="?acao=deletar&id_usuario[]=<?php echo $valores['id_usuario']; ?>" class="deletar"></a></td>
 
                     </tr>
                 <?php endforeach; ?>
