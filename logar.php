@@ -54,9 +54,18 @@ endif;
             <div id="logar">
                 Acesso ao Administrador
                 <form method="post">
-                    <p>Login: <input type="text" name="login" /></p>
-                    <p>Senha: <input type="password" name="senha" /></p> 
-                    <p><input type="submit" value="Logar" class="ch-btn-skin ch-btn-small"/></p>
+                
+                    <table>
+                        <tr>
+                            <td class="text-td">Login:</td>
+                            <td class="input-td"><input type="text" name="login" /></td>
+                        </tr>
+                        <tr>
+                            <td class="text-td">Senha:</td>
+                            <td class="input-td"><input type="password" name="senha" /></td>
+                        </tr>
+                    </table>
+                    <input type="submit" value="Logar" class="ch-btn-skin ch-btn-small"/>
                 </form>
             </div>
 
