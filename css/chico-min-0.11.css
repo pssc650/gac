@@ -77,7 +77,7 @@ table {
 body {
 	background-color: #FFF;
 	color: #333; 
-	min-width: 760px;
+	/*min-width: 760px;
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 10px; /* Prevent layout "sticking" to the edge of the browser */
