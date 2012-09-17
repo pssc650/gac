@@ -170,11 +170,12 @@ input{
     padding:20px;
     float:none;
     margin: 10% auto;
-    height: 140px;
+    height: 150px;
 }
 
 .acesso_sistema{
     float: left;
+    margin: 0 0 10px;
     text-align: center;
     text-transform: uppercase;
     width: 100%;
