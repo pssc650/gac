@@ -170,10 +170,19 @@ input{
     padding:20px;
     float:none;
     margin: 10% auto;
-
+    height: 140px;
 }
 
-
+.acesso_sistema{
+    float: left;
+    margin: 0 0 0 35px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+#logar table{
+    float:left;
+}
 #logar table tr td{
     display:block;
     float:left;

@@ -52,7 +52,7 @@ endif;
                  <img src="images/symbol_cinza.png">
             </div>
             <div id="logar">
-                Acesso ao Administrador
+                <div class="acesso_sistema">Acesso ao Administrador</div>
                 <form method="post">
                 
                     <table>
