@@ -64,8 +64,12 @@ endif;
                             <td class="text-td">Senha:</td>
                             <td class="input-td"><input type="password" name="senha" /></td>
                         </tr>
+                        <tr>
+                            <td class="text-td"></td>
+                            <td class="input-td"><input type="submit" value="Logar" class="ch-btn-skin ch-btn-small"/></td>
+                        </tr>
                     </table>
-                    <input type="submit" value="Logar" class="ch-btn-skin ch-btn-small"/>
+                    
                     
                 </form>
             </div>
