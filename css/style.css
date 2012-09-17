@@ -192,7 +192,9 @@ input{
     margin: 0 0 0 5px;
     width: 180px;
 }
-
+#logar table tr td.input-td.submit{
+    text-align:right;    
+}
 /*tabela*/
 .lista_dados{
     margin: 0 0 15px;

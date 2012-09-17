@@ -66,7 +66,7 @@ endif;
                         </tr>
                         <tr>
                             <td class="text-td"></td>
-                            <td class="input-td"><input type="submit" value="Logar" class="ch-btn-skin ch-btn-small"/></td>
+                            <td class="input-td submit"><input type="submit" value="Logar" class="ch-btn-skin ch-btn-small"/></td>
                         </tr>
                     </table>
                     
