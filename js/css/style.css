@@ -1,0 +1,209 @@
+/* 
+    Document   : style
+    Created on : 07/04/2012, 15:10:10
+    Author     : Gabriel
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+input{
+    border:1px solid #ccc;
+    padding:2px;
+}
+#container{
+    width:1280px;
+    margin: 0 auto;
+}
+
+#content, #header, #menu, #status, #logar{
+    border:1px solid #ccc;
+    box-shadow: 2px 2px 10px #ccc;
+    -webkit-box-shadow: 2px 2px 10px #ccc;
+    -moz-box-shadow: 2px 2px 10px #ccc;
+    width:1280px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#content{
+    float:left;
+    width:1260px;
+    padding: 10px;
+    margin: 10px auto 0 auto;
+}
+#header{
+    height:150px;
+    margin: 10px auto 0 auto;
+}
+
+#menu{
+    height:52px;
+    background-color: #E8E8E8;
+    margin: 10px auto 0 auto;
+}
+
+#menu ul{
+    float: left;
+    margin: 0 0 0 15px;
+}
+
+#menu ul li{
+    list-style: none;
+    padding: 17px 10px;
+    float:left;
+    font:16px sans-serif;
+    position: relative;
+}
+
+#menu ul li:hover ul, #menu ul li:hover ul li{
+    display: block;    
+}
+
+#menu ul li ul{
+    border-radius: 0 0 5px 5px;
+    width: 300px;
+    background-color: #E8E8E8;
+    position: absolute;
+    top: 52px;
+    padding:0;
+    left: -15px;
+    right: 0;
+    border:1px solid #ccc;
+    box-shadow: 2px 2px 10px #ccc;
+    -webkit-box-shadow: 2px 2px 10px #ccc;
+    -moz-box-shadow: 2px 2px 10px #ccc;
+    border-top:0;
+    display: none;
+    z-index: 9999;
+}
+
+#menu ul li ul li{
+    border-radius: 0 0 5px 5px;
+    float: left;
+    width: 280px;
+}
+#menu ul li:hover, #menu ul li ul li:hover{
+    background-color: #ccc;
+}
+
+/*Status*/
+#status{
+    width: 200px;
+    float:right;
+    margin: 75px 10px 0 0;
+    padding:20px;
+    text-align: right;
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+/*Box 100%*/
+.box{
+    border:1px solid #ccc;
+    box-shadow: 2px 2px 10px #ccc;
+    -webkit-box-shadow: 2px 2px 10px #ccc;
+    -moz-box-shadow: 2px 2px 10px #ccc;
+    border-radius: 5px 5px 5px 5px;
+    position:relative; 
+    padding: 15px;
+    float: left;
+    margin:10px 0;
+    width: 1225px;
+}
+.box span.titulo{
+    background-color: #fff;
+    position: absolute;
+    top:-11px;
+    left:10px;
+    padding:0 2px;
+    font: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+#box_logar{
+    float: left;
+    min-height: 100%;
+    min-width: 100%;
+    width: 0;
+    margin: 0;
+}
+
+/*Logar*/
+#logar{
+    width:210px;
+    padding:20px;
+    float:none;
+    margin: 10% auto;
+
+}
+
+/*tabela*/
+.lista_dados{
+    margin: 0 0 15px;
+    padding: 5px;
+    width: 100%;
+}
+
+.lista_dados .cabecalho{
+    background: none repeat scroll 0 0 #CCCCCC;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.deletar,
+.ativar,
+.desativar{
+    width:16px;
+    height: 16px;
+    float:left;
+}
+.ativar{
+    background: url("../images/icon_ativar.png") no-repeat;
+}
+.deletar{
+    background: url("../images/icon_deletar.png") no-repeat;
+}
+.desativar{
+    background: url("../images/icon_desativar.png") no-repeat;
+}
+
+/*Alerta*/
+#alerta{
+    position: absolute;
+    width: 100%;
+}
+.alerta{
+    margin: 5px auto;
+    width: 600px;
+    padding: 10px 0;
+    text-align: center;
+    font: 16px;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 0px 10px #ccc;
+    -moz-box-shadow: 0px 0px 10px #ccc;
+    z-index: 1;
+}
+.alerta.sucesso{
+    border:1px solid #00FF00;
+    background-color: #C1FFC1;
+    color: #fff;
+}
+
+.alerta.erro{
+    border:1px solid #FF0000;
+    background-color: #F08080;
+    color: #fff;
+}
