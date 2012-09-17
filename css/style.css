@@ -173,6 +173,18 @@ input{
 
 }
 
+
+#logar table tr td{
+    display:block;
+    float:left;
+}
+
+#logar table tr td.text-td{
+    
+}
+#logar table tr td.input-td{
+    
+}
 /*tabela*/
 .lista_dados{
     margin: 0 0 15px;

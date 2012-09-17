@@ -66,6 +66,7 @@ endif;
                         </tr>
                     </table>
                     <input type="submit" value="Logar" class="ch-btn-skin ch-btn-small"/>
+                    
                 </form>
             </div>
 
