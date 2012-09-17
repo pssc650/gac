@@ -52,14 +52,10 @@ endif;
                  <img src="images/symbol_cinza.png">
             </div>
             <div id="logar">
-                
+                Acesso ao Administrador
                 <form method="post">
                 
                     <table>
-                        <tr>
-                            <td class="text-td"></td>
-                            <td class="input-td submit">Acesso ao Administrador</td>
-                        </tr>
                         <tr>
                             <td class="text-td">Login:</td>
                             <td class="input-td"><input type="text" name="login" /></td>
