@@ -56,7 +56,7 @@ endif;
                 <form method="post">
                     <p>Login: <input type="text" name="login" /></p>
                     <p>Senha: <input type="password" name="senha" /></p> 
-                    <p><input type="submit" value="Logar" /></p>
+                    <p><input type="submit" value="Logar" class="ch-btn-skin ch-btn-small"/></p>
                 </form>
             </div>
 
